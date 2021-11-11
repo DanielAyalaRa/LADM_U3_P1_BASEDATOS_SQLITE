@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/fondocarro"
+    tools:context=".Principal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mandaditos"
+        android:textSize="56dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnConductor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condutores"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btnVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehiculos"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btnConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        />
+</LinearLayout>

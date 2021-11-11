@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LADM_U3_P1_BD</string>
+
+    <string-array name="consultas">
+        <item>Licencia vencida</item>
+        <item>Conductor no asignado</item>
+        <item>Cantidad de años de uso de vehiculos</item>
+        <item>Vehiculo asignado a conductor</item>
+        <item>Conductor asignado a vehiculo</item>
+    </string-array>
 </resources>

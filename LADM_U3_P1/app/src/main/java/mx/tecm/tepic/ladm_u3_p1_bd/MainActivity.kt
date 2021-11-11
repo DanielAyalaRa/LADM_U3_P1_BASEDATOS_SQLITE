@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(ventana,0)
         }
 
-        cargaInformacion()
+        cargaInformacion()*/
     }
 
     private fun mensaje(s: String) {
@@ -101,24 +101,6 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
-    private fun llamarVentanaActualizar(idLista: String) {
-        var ventana = Intent(this,MainActivity3::class.java)
-        var c = Conductor("","","","")
-        c.asignarPuntero(this)
-
-        var nombre = c.consultaID(idLista).nom
-        var domicilio = c.consultaID(idLista).dom
-        var nolicencia = c.consultaID(idLista).nol
-        var vence = c.consultaID(idLista).ven
-
-        ventana.putExtra("id",idLista)
-        ventana.putExtra("nombre",nombre)
-        ventana.putExtra("domicilio",domicilio)
-        ventana.putExtra("nolicencia",nolicencia)
-        ventana.putExtra("vence",vence)
-
-        startActivityForResult(ventana,0)
-    }
 
     private fun llamarVentanaVehiculo(idLista: String) {
         var ventana = Intent(this,InsertarVehiculos::class.java)

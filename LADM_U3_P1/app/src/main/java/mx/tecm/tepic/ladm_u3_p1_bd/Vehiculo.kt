@@ -37,7 +37,7 @@ class Vehiculo (i:String, f:ByteArray?){
         return true
     }
 
-    fun recuperarDatos(id:String): ArrayList<Vehiculo> {
+    /*fun recuperarDatos(id:String): ArrayList<Vehiculo> {
         var data = ArrayList<Vehiculo>()
         try{
             var bd = BaseDatos(puntero!!,nombre,null,1 )
@@ -57,7 +57,7 @@ class Vehiculo (i:String, f:ByteArray?){
         }catch (e: SQLiteException){
         }
         return data
-    }
+    }*/
 
     fun eliminar(id:String):Boolean{
         try{
